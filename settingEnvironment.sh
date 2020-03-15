@@ -42,6 +42,8 @@ gsed -i '$ a export PATH=$PATH:$ANDROID_HOME/platform-tools' ~/.bash_profile
 gsed -i '$ a export JAVA_HOME=`/System/Library/Frameworks/JavaVM.framework/Versions/A/Commands/java_home -v "1.8.0_242"`' ~/.bash_profile
 gsed -i '$ a PATH=$JAVA_HOME/bin:$PATH' ~/.bash_profile
 
+source ~/.bash_profile
+
 echo "Finish."
 echo "React-Native Setting Environment."
 
