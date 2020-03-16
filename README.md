@@ -2,7 +2,7 @@
 React-Nativeで作成したチャットアプリです
 
 **自分が書いたQiita記事**
-* https://qiita.com/susu_susu__/private/da94e751d2db784ad0ee
+* https://qiita.com/susu_susu__/items/da94e751d2db784ad0ee
 
 ```
 # チャットアプリダウンロード
