@@ -33,6 +33,9 @@ brew cask install homebrew/cask-versions/adoptopenjdk8
 # EOF
 # 一応バックアップとして記載しておく(.bash_profileの最後の行に記載する)
 
+# GNU版インストールinnsuto-ru
+brew install gnu-sed
+
 # 環境変数を書き換え
 gsed -i '$ a export ANDROID_HOME=$HOME/Library/Android/sdk' ~/.bash_profile
 gsed -i '$ a export PATH=$PATH:$ANDROID_HOME/emulator' ~/.bash_profile
