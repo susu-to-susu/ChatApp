@@ -16,7 +16,6 @@ $ sh settingEnvironment.sh
 
 # ライブラリインストール
 $ npm install react-native-gifted-chat --save
-$ npm install react-native-router-flux --save
 
 # 起動
 npm start
