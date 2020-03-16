@@ -11,6 +11,9 @@ git clone https://github.com/susu-to-susu/ChatApp.git
 # 移動
 cd ChatApp
 
+# 環境構築用シェルスクリプトを実行
+$ sh settingEnvironment.sh
+
 # 起動
 npm start
 ```
