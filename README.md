@@ -14,6 +14,10 @@ cd ChatApp
 # 環境構築用シェルスクリプトを実行
 $ sh settingEnvironment.sh
 
+# ライブラリインストール
+$ npm install react-native-gifted-chat --save
+$ npm install react-native-router-flux --save
+
 # 起動
 npm start
 ```
