@@ -6,19 +6,21 @@ React-Nativeで作成したチャットアプリです
 
 ```
 # チャットアプリダウンロード
-git clone https://github.com/susu-to-susu/ChatApp.git
+$ git clone https://github.com/susu-to-susu/ChatApp.git
 
 # 移動
-cd ChatApp
+$ cd ChatApp
 
 # 環境構築用シェルスクリプトを実行
 $ sh settingEnvironment.sh
 
 # ライブラリインストール
 $ npm install react-native-gifted-chat --save
+# もしくはアップデート
+$ npm update react-native-gifted-chat
 
 # 起動
-npm start
+$ npx react-native run-android
 ```
 
 ## 参考
